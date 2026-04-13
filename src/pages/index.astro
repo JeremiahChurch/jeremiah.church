@@ -1,0 +1,143 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import me from '../assets/me.png';
+---
+
+<Layout
+  title="Jeremiah Church - Technical founder"
+  description="Technical founder. Building Comma Compliance - the modern communications ingestion layer for regulated organizations. Also: cars, solar, home automation, tinkering."
+>
+  <section class="mb-16">
+    <div class="flex flex-col sm:flex-row-reverse sm:items-start sm:gap-8 gap-6">
+      <Image
+        src={me}
+        alt="Jeremiah Church"
+        width={320}
+        height={252}
+        widths={[160, 240, 320]}
+        sizes="(min-width: 640px) 160px, 140px"
+        loading="eager"
+        class="w-[140px] sm:w-[160px] h-auto rounded-lg object-cover shrink-0"
+      />
+      <div class="flex-1 min-w-0">
+        <p class="font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] mb-3">
+          San Francisco &middot; Chattanooga &middot; hi@jeremiah.church
+        </p>
+        <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.1] mb-6">
+          Jeremiah Church.
+        </h1>
+        <p class="text-xl leading-relaxed text-[var(--color-ink)]/90 max-w-[55ch]">
+          Technical founder. I build software for regulated industries, race cars in my
+          spare time, and run a solar-powered shop that doubles as a home lab.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      Now
+    </h2>
+    <div class="space-y-4 text-[17px] leading-relaxed max-w-[60ch]">
+      <p>
+        Building <a href="https://commacompliance.com">Comma Compliance</a> - WhatsApp,
+        Signal, iMessage, and 40+ channel archiving for SEC and FINRA-regulated firms.
+      </p>
+      <p>
+        Shipping <a href="https://github.com/comma-compliance/arc-relay">Arc Relay</a>,
+        our open-source MCP control plane. Auth, policy, middleware, and audit trail for
+        any AI agent talking to any tool.
+      </p>
+    </div>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      Work
+    </h2>
+    <ul class="space-y-6 max-w-[60ch]">
+      <li>
+        <p class="font-medium">
+          Comma Compliance
+          <span class="text-[var(--color-muted)] font-normal">- founder &amp; CEO, 2024 - present</span>
+        </p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          Modern communications ingestion for regulated work. Customers across financial
+          services, multinational POCs in flight.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">
+          Finance Forge
+          <span class="text-[var(--color-muted)] font-normal">- 2020 - 2021, acquired</span>
+        </p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          Fintech tooling. Built, sold, and handed off.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">
+          Syncta
+          <span class="text-[var(--color-muted)] font-normal">- founder, acquired 2019</span>
+        </p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          B2B SaaS for backflow testing compliance. Plumbing, literally. Built from zero,
+          sold to Watts Water, ran the integration after.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">
+          Fiserv and many others
+          <span class="text-[var(--color-muted)] font-normal">- 2011 - 2018</span>
+        </p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          Plumbing, figuratively. Payments, core banking, and the unglamorous pipework
+          underneath a lot of the financial services you use every day.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      Off the clock
+    </h2>
+    <ul class="space-y-6 max-w-[60ch]">
+      <li>
+        <p class="font-medium">Cars &amp; motorsport</p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          Putting LS's into anything and everything. Crashing scratch-builts on
+          hillclimbs. Too many project cars collecting dust in the shop.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">Solar &amp; home automation</p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          64 kW of solar, 136 kWh of lithium, CT clamps on every circuit. We only pull
+          from the grid when the three-phase buck generator needs to start for the CNCs.
+        </p>
+      </li>
+      <li>
+        <p class="font-medium">Tinkering</p>
+        <p class="text-[var(--color-muted)] text-[15px]">
+          Reverse-engineering firmware, 3D printing, CNC, and the occasional
+          ill-advised smart-home integration. I have opinions on ESPHome.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="mb-4">
+    <h2 class="font-mono text-xs uppercase tracking-wider text-[var(--color-muted)] mb-4">
+      Contact
+    </h2>
+    <p class="max-w-[60ch]">
+      Email is the fastest way: <a href="mailto:hi@jeremiah.church"><code class="font-mono text-[15px]">hi@jeremiah.church</code></a>.
+    </p>
+    <p class="max-w-[60ch] mt-4">
+      I've had the same phone number since the dawn of time, and I'll have it until I
+      die. If you have it, call me.
+    </p>
+  </section>
+</Layout>

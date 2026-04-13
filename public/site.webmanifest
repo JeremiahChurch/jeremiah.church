@@ -1,0 +1,11 @@
+{
+  "name": "Jeremiah Church",
+  "short_name": "jc",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "theme_color": "#1a1a1a",
+  "background_color": "#fafaf8",
+  "display": "minimal-ui",
+  "start_url": "/"
+}
