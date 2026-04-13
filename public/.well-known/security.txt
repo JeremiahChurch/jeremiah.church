@@ -6,4 +6,4 @@ Contact: mailto:hi@jeremiah.church
 Expires: 2027-04-13T00:00:00.000Z
 Preferred-Languages: en
 Canonical: https://jeremiah.church/.well-known/security.txt
-# Next: check my DNS. TXT records hold a secret.
+# Next: dig TXT _ctf.jeremiah.church +short
