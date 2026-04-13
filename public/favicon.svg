@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FLAG_FRAG_3=say_hi_for_a_prize} -->
+<!-- Assemble the three fragments. Email the full flag to hi@jeremiah.church. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="12" fill="#1a1a1a"/>
   <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle"
