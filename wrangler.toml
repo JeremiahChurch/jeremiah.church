@@ -1,0 +1,7 @@
+name = "jeremiah-church"
+compatibility_date = "2026-04-14"
+workers_dev = false
+keep_vars = true
+
+[assets]
+directory = "./dist"
